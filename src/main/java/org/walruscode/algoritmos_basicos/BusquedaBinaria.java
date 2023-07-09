@@ -4,6 +4,8 @@ public class BusquedaBinaria {
 
     // tiempo: O(log(n))
     // espacio: O(1)
+
+    // condicion: arreglo está ordenado
     private static int buscar(int numero, int[] arreglo) {
         if (arreglo == null || arreglo.length == 0) return -1;
 
